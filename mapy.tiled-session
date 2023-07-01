@@ -1,0 +1,56 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "Source/map2.tmx",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "#111": {
+            "scaleInDock": 1
+        },
+        "Source/map.tsx": {
+            "scaleInDock": 1
+        },
+        "Source/map2.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 569,
+                "y": 502
+            }
+        }
+    },
+    "last.externalTilesetPath": "C:/Users/Asus/source/repos/MyGame/MyGame/Source",
+    "last.imagePath": "C:/Users/Asus/source/repos/MyGame/MyGame/Source",
+    "map.height": 25,
+    "map.lastUsedFormat": "tmx",
+    "map.layerDataFormat": null,
+    "map.orientation": 0,
+    "map.tileHeight": 50,
+    "map.tileWidth": 50,
+    "map.width": 25,
+    "openFiles": [
+        "Source/map2.tmx"
+    ],
+    "project": "mapy.tiled-project",
+    "recentFiles": [
+        "Source/map2.tmx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.lastUsedFilter": "Файлы набора тайлов Tiled (*.tsx *.xml)",
+    "tileset.margin": 0,
+    "tileset.spacing": 0,
+    "tileset.tileSize": {
+        "height": 50,
+        "width": 50
+    },
+    "tileset.transparentColor": "#ff00ff",
+    "tileset.type": 0,
+    "tileset.useTransparentColor": false
+}

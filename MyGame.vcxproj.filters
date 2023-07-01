@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyGame.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinystr.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxml.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlerror.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlparser.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EnemyTank.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingObject.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObject.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Mine.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Bonuses.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="IDestroyed.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="level.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinystr.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinyxml.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Tanks\blast.png">
+      <Filter>Исходные файлы</Filter>
+    </Image>
+    <Image Include="Tanks\DestroyedTank.png">
+      <Filter>Исходные файлы</Filter>
+    </Image>
+    <Image Include="Tanks\hardTank.png">
+      <Filter>Исходные файлы</Filter>
+    </Image>
+    <Image Include="Tanks\lightTank.png">
+      <Filter>Исходные файлы</Filter>
+    </Image>
+    <Image Include="Tanks\mediumTank.png">
+      <Filter>Исходные файлы</Filter>
+    </Image>
+    <Image Include="Tanks\semihardTank.png">
+      <Filter>Исходные файлы</Filter>
+    </Image>
+    <Image Include="Source\ammo.png">
+      <Filter>Исходные файлы</Filter>
+    </Image>
+    <Image Include="Source\bonuses.png">
+      <Filter>Исходные файлы</Filter>
+    </Image>
+    <Image Include="Source\map.png">
+      <Filter>Исходные файлы</Filter>
+    </Image>
+    <Image Include="Source\Mine.png">
+      <Filter>Исходные файлы</Filter>
+    </Image>
+    <Image Include="Source\Projectile.png">
+      <Filter>Исходные файлы</Filter>
+    </Image>
+    <Image Include="Source\super.png">
+      <Filter>Исходные файлы</Filter>
+    </Image>
+    <Image Include="Source\walls.png">
+      <Filter>Исходные файлы</Filter>
+    </Image>
+    <Image Include="menu\Menu background.png">
+      <Filter>Исходные файлы</Filter>
+    </Image>
+    <Image Include="menu\menu el1.png">
+      <Filter>Исходные файлы</Filter>
+    </Image>
+    <Image Include="menu\menu el2.png">
+      <Filter>Исходные файлы</Filter>
+    </Image>
+    <Image Include="menu\menu el3.png">
+      <Filter>Исходные файлы</Filter>
+    </Image>
+    <Image Include="menu\menu el4.png">
+      <Filter>Исходные файлы</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\myFirstGame.tmx">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="Source\map2.tmx">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="Source\mapfinal.tmx" />
+  </ItemGroup>
+</Project>
